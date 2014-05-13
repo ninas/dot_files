@@ -92,11 +92,6 @@ let g:syntastic_mode_map = { 'mode': 'active',
 let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_scala_checkers = ['scalac']
 let g:syntastic_java_checkers = ['checkstyle']
-"let g:syntastic_java_checkstyle_classpath = '/home/zakv/dev/software/checkstyle/checkstyle-5.6-all.jar'
-"let g:syntastic_java_checkstyle_conf_file = '/home/zakv/dev/software/checkstyle/sun_checks.xml'
-
-" Custom command for :Ack
-"let g:ackprg="/home/zakv/dev/software/ack-2.04-single-file -H --nocolor --nogroup --column"
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
